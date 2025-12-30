@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "ado": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\igorcarvalho\\Desktop\\MCP-Servers-Tests\\Azure-DevOps\\azure-devops-mcp\\dist\\index.js",
+        "igorcarvallo95",
+        "--authentication",
+        "envvar"
+      ],
+      "env": {
+        "ADO_MCP_AUTH_TOKEN": "6JYjZD3HYO8g06yI7FR6ZuJJrJ3o34zTDHogAF2KvkLOZkSMAElqJQQJ99BLACAAAAAAAAAAAAASAZDO2TKW"
+      }
+    },
+    "gdrive": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-gdrive"
+      ],
+      "description": "Google Drive MCP Server - Consultar documentos (RFP, Proposta, Especificação Funcional)",
+      "disabled": false,
+      "env": {
+        "GDRIVE_CLIENT_ID": "${GDRIVE_CLIENT_ID}",
+        "GDRIVE_CLIENT_SECRET": "${GDRIVE_CLIENT_SECRET}"
+      }
+    },
+    "figma": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-figma"
+      ],
+      "description": "Figma MCP Server - Consultar designs e protótipos",
+      "disabled": false,
+      "env": {
+        "FIGMA_PERSONAL_ACCESS_TOKEN": "${FIGMA_PERSONAL_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

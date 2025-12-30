@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.local
+
+# MCP Server tokens and credentials
+.mcp-cache/
+
+# Outputs (opcional - remova se quiser versionar os outputs)
+# outputs/**/*.md
+
+# Node modules (se usar MCP servers locais)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,6 @@
+# Este diretório armazena os outputs gerados pelo agente
+
+## Estrutura:
+- specs/ - Especificações funcionais
+- pbis/ - Product Backlog Items
+- crs/ - Change Requests
